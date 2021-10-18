@@ -3,6 +3,10 @@ uuid = "3e94a9e4-814b-4e46-b2d7-6712821a4d22"
 authors = ["Viktor G. Gumennyy <20798349+sairus7@users.noreply.github.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+
 [compat]
 julia = "1"
 
