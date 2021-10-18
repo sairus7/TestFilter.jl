@@ -7,7 +7,7 @@
 Перейти в режим менеджера пакетов `]` и выполнить команду:
 
 ```julia
-pkg> dev https://github.com/sairus7/TestFilter.jl
+(1.6) pkg> dev https://github.com/sairus7/TestFilter.jl
 ```
 
 Пакет установится в окружение по-умолчанию (1.6)
@@ -19,19 +19,19 @@ pkg> dev https://github.com/sairus7/TestFilter.jl
 Активировать окружение из подпапки examples:
 
 ```julia
-pkg> activate examples
+(TestFilter) pkg> activate examples
 ```
 
 Добавить в это окружение только что скаченный нами пакет (иначе не найдет его по названию):
 
 ```julia
-dev TestFilter
+(examples) pkg> dev TestFilter
 ```
 
 Инстанцировать окружение - докачать все остальные зависимости из файла окружения `examples/Project.toml`:
 
 ```julia
-pkg> instantiate
+(examples) pkg> instantiate
 ```
 
 Запустить скрипт с примерами `examples/filter_ecg.toml`
